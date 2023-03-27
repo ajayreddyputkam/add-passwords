@@ -1,0 +1,139 @@
+.list-item {
+  border: 2px solid #c3caea;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 35%;
+  }
+}
+
+.name-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #0b69ff;
+  margin-right: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-logo-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+}
+
+.user-logo {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .user-logo {
+    font-size: 16px;
+  }
+}
+
+.web-name-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .web-name-container {
+    margin-left: 10px;
+  }
+}
+
+.website {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .website {
+    font-size: 18px;
+  }
+}
+
+.username {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .username {
+    font-size: 16px;
+  }
+}
+
+.password-stars-image {
+  width: 100%;
+  height: 15px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-stars-image {
+    width: 100%;
+  }
+}
+
+.delete-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-image {
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .delete-image {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.password-para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .password-para {
+    font-size: 16px;
+  }
+}
